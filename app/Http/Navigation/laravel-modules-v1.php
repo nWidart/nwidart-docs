@@ -17,5 +17,6 @@ return [
         'Artisan Commands',
         'Facade methods',
         'Module methods',
+        'Publishing modules',
     ],
 ];
