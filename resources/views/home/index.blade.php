@@ -48,7 +48,7 @@
         <div class="container">
             <h2 class="title">Getting started is easy!</h2>
             <div class="intro">
-                <p>Welcome to prettyDocs. This landing page is an example of how you can use a card view to present segments of your documentation. You can customise the icon fonts based on your needs.</p>
+                <p>Welcome on nwidart.com! This website contains the documentations for all my packages.</p>
                 <div class="cta-container">
                     <a class="btn btn-primary btn-cta" href="https://github.com/nwidart" target="_blank"><i class="fa fa-cloud-download"></i> Github Profile</a>
                 </div><!--//cta-container-->
