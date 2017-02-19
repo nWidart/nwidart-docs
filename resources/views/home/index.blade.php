@@ -50,7 +50,8 @@
             <div class="intro">
                 <p>Welcome on nwidart.com! This website contains the documentations for all my packages.</p>
                 <div class="cta-container">
-                    <a class="btn btn-primary btn-cta" href="https://github.com/nwidart" target="_blank"><i class="fa fa-cloud-download"></i> Github Profile</a>
+                    <a class="btn btn-primary btn-cta" href="https://github.com/nwidart" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i> Github Profile</a>
+                    <a class="btn btn-primary btn-cta" href="https://nicolaswidart.com" target="_blank"><i class="fa fa-caret-right" aria-hidden="true"></i> Portfolio</a>
                 </div><!--//cta-container-->
             </div><!--//intro-->
             <div id="cards-wrapper" class="cards-wrapper row">
