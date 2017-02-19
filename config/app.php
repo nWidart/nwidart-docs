@@ -51,7 +51,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://docs.spatie.be'),
+    'url' => env('APP_URL', 'https://docs.nwidart.com'),
 
     /*
     |--------------------------------------------------------------------------
