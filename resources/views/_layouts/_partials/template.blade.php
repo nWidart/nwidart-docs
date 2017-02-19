@@ -50,7 +50,7 @@
             <div class="branding">
                 <div class="col-md-6">
                     <h1 class="logo">
-                        <a href="index.html">
+                        <a href="/laravel-modules">
                             <span aria-hidden="true" class="icon_documents_alt icon"></span>
                             <span class="text-highlight">{{ $package }}</span>
                         </a>
