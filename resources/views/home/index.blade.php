@@ -29,7 +29,7 @@
 </head>
 
 <body class="landing-page">
-
+@include('_partials.analytics')
 <div class="page-wrapper">
 
     <!-- ******Header****** -->

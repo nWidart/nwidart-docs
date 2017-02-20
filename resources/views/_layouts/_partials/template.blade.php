@@ -41,7 +41,7 @@
 </head>
 
 <body class="">
-
+@include('_partials.analytics')
 <div class="page-wrapper">
 
     <!-- ******Header****** -->
