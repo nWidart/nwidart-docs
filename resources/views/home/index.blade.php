@@ -64,7 +64,8 @@
 
 <footer class="footer text-center">
     <div class="container">
-        <small class="copyright">Nicolas Widart | Documentation app by <a href="https://spatie.be" target="_blank">Spatie</a></small>
+        <small class="copyright">Nicolas Widart | Documentation app by <a href="https://spatie.be" target="_blank">Spatie</a> | Designed by
+            <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a></small>
     </div><!--//container-->
 </footer><!--//footer-->
 
