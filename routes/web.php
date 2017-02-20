@@ -10,6 +10,14 @@ Route::prefix('laravel-modules')->group(function () {
 
 });
 
+Route::prefix('laravel-menus')->group(function () {
+
+    Route::get('/', function () {
+        return redirect('laravel-menus/v1/introduction');
+    });
+
+});
+
 
 Route::get('{slug}/edit', 'PageController@edit')->where('slug', '(.*)');
 Route::get('{slug}', 'PageController@page')->where('slug', '(.*)');

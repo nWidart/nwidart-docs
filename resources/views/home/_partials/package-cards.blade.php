@@ -15,6 +15,6 @@
         </div><!--//icon-holder-->
         <h3 class="title">Laravel Menus</h3>
         <p class="intro">Laravel Menu Management</p>
-        <a class="link" href="#"><span></span></a>
+        <a class="link" href="/laravel-menus"><span></span></a>
     </div><!--//item-inner-->
 </div><!--//item-->
