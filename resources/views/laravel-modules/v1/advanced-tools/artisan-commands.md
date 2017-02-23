@@ -15,88 +15,172 @@ __Note all the following commands use "Blog" as example module name, and example
 
 ## Utility commands
 
-### php artisan module:make Blog
+### module:make
 
 Generate a new module.
 
-### php artisan module:make Blog User Auth
+```bash
+php artisan module:make Blog
+```
+
+### module:make
 
 Generate multiple modules at once.
 
-### php artisan module:use Blog
+```bash
+php artisan module:make Blog User Auth
+```
+
+### module:use
 
 Use a given module. This allows you to not specific the module name on other commands requiring the module name as an argument.
 
-### php artisan module:list
+```bash
+php artisan module:use Blog
+```
+
+### module:list
 
 List all available modules.
 
-### php artisan module:migrate Blog
+```bash
+php artisan module:list
+```
+
+### module:migrate
 
 Migrate the given module, or without a module an argument, migrate all modules.
 
-### php artisan module:migrate-rollback Blog
+```bash
+php artisan module:migrate Blog
+```
+
+### module:migrate-rollback
 
 Rollback the given module, or without an argument, rollback all modules.
 
-### php artisan module:seed Blog
+```bash
+php artisan module:migrate-rollback Blog
+```
+
+### module:seed
 
 Seed the given module, or without an argument, seed all modules
 
-### php artisan module:publish-migrations Blog
+```bash
+php artisan module:seed Blog
+```
+
+### module:publish-migrations
 
 Publish the migration files for the given module, or without an argument publish all modules migrations.
 
-### php artisan module:publish-config Blog
+```bash
+php artisan module:publish-migrations Blog
+```
+
+### module:publish-config
 
 Publish the given module configuration files, or without an argument publish all modules configuration files.
 
-### php artisan module:enable Blog
+```bash
+php artisan module:publish-config Blog
+```
+
+### module:enable
 
 Enable the given module.
 
-### php artisan module:disable Blog
+```bash
+php artisan module:enable Blog
+```
+
+### module:disable
 
 Disable the given module.
 
-### php artisan module:update Blog
+```bash
+php artisan module:disable Blog
+```
+
+### module:update
 
 Update the given module.
 
+```bash
+php artisan module:update Blog
+```
+
 ## Generator commands
 
-### php artisan module:make-command CreatePostCommand Blog
+### module:make-command
 
 Generate the given console command for the specified module.
 
-### php artisan module:make-migration create_posts_table Blog
+```bash
+php artisan module:make-command CreatePostCommand Blog
+```
+
+### module:make-migration
 
 Generate a migration for specified module.
 
-### php artisan module:make-seed seed_fake_blog_posts Blog
+```bash
+php artisan module:make-migration create_posts_table Blog
+```
+
+### module:make-seed
 
 Generate the given seed name for the specified module.
 
-### php artisan module:make-controller PostsController Blog
+```bash
+php artisan module:make-seed seed_fake_blog_posts Blog
+```
+
+### module:make-controller
 
 Generate a controller for the specified module.
 
-### php artisan module:make-model Post Blog
+```bash
+php artisan module:make-controller PostsController Blog
+```
+
+### module:make-model
 
 Generate the given model for the specified module.
 
-### php artisan module:make-provider BlogServiceProvider Blog
+```bash
+php artisan module:make-model Post Blog
+```
+
+### module:make-provider
 
 Generate the given service provider name for the specified module.
 
-### php artisan module:make-middleware CanReadPostsMiddleware Blog
+```bash
+php artisan module:make-provider BlogServiceProvider Blog
+```
+
+### module:make-middleware
 
 Generate the given middleware name for the specified module.
 
-### php artisan module:make-mail SendWeeklyPostsEmail Blog
+```bash
+php artisan module:make-middleware CanReadPostsMiddleware Blog
+```
+
+### module:make-mail
 
 Generate the given mail class for the specified module.
 
-### php artisan module:make-notification NotifyAdminOfNewComment Blog
+```bash
+php artisan module:make-mail SendWeeklyPostsEmail Blog
+```
+
+### module:make-notification
 
 Generate the given notification class name for the specified module.
+
+```bash
+php artisan module:make-notification NotifyAdminOfNewComment Blog
+```
