@@ -2,5 +2,6 @@
   "/assets/js/main.js": "/assets/js/main.js",
   "/assets/css/styles.css": "/assets/css/styles.css",
   "/assets/css/laravel-modules.styles.css": "/assets/css/laravel-modules.styles.css",
-  "/assets/css/laravel-menus.styles.css": "/assets/css/laravel-menus.styles.css"
+  "/assets/css/laravel-menus.styles.css": "/assets/css/laravel-menus.styles.css",
+  "/assets/css/laravel-videoable.styles.css": "/assets/css/laravel-videoable.styles.css"
 }

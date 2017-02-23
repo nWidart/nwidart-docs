@@ -13,4 +13,10 @@ return [
         'siteTitle' => 'Laravel Menus',
         'versions' => ['v1'],
     ],
+    'laravel-videoable' => [
+        'githubUrl' => 'https://github.com/nWidart/laravel-videoable',
+        'siteSlogan' => 'Attach Videos to your Eloquent Models',
+        'siteTitle' => 'Laravel Videoable',
+        'versions' => ['v1'],
+    ],
 ];

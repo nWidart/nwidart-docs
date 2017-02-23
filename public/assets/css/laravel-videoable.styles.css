@@ -1,0 +1,28 @@
+.header {
+  border-top: 5px solid #8A40A7;
+}
+.branding .icon {
+  font-size: 24px;
+  color: #8A40A7;
+}
+.branding .text-highlight {
+  color: #8A40A7;
+}
+a {
+  color: #8A40A7;
+}
+.doc-sub-menu > li > a:hover,
+a:hover {
+  text-decoration: underline;
+  color: #8A40A7;
+}
+.doc-sub-menu > li.active > a {
+  background: none;
+  color: #8A40A7;
+}
+.doc-menu > li.active > a {
+  background: none;
+  border-left: 4px solid #8A40A7;
+  color: #8A40A7;
+  font-weight: 600;
+}
