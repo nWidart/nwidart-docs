@@ -11,13 +11,15 @@ title: Artisan commands
     </div><!--//content-->
 </div>
 
+__Note all the following commands use "Blog" as example module name, and example class/file names__
+
 ## Utility commands
 
-### module:make <module-name>
+### module:make Blog
 
 Generate a new module.
 
-### module:use <module-name>
+### module:use Blog
 
 Use a given module. This allows you to not specific the module name on other commands requiring the module name as an argument.
 
@@ -25,72 +27,72 @@ Use a given module. This allows you to not specific the module name on other com
 
 List all available modules.
 
-### module:migrate <module-name>
+### module:migrate Blog
 
 Migrate the given module, or without a module an argument, migrate all modules.
 
-### module:migrate-rollback <module-name>
+### module:migrate-rollback Blog
 
 Rollback the given module, or without an argument, rollback all modules.
 
-### module:seed <module-name>
+### module:seed Blog
 
 Seed the given module, or without an argument, seed all modules
 
-### module:publish-migrations <module-name>
+### module:publish-migrations Blog
 
 Publish the migration files for the given module, or without an argument publish all modules migrations.
 
-### module:publish-config <module-name>
+### module:publish-config Blog
 
 Publish the given module configuration files, or without an argument publish all modules configuration files.
 
-### module:enable <module-name>
+### module:enable Blog
 
 Enable the given module.
 
-### module:disable <module-name>
+### module:disable Blog
 
 Disable the given module.
 
-### module:update <module-name>
+### module:update Blog
 
 Update the given module.
 
 ## Generator commands
 
-### module:make-command <command-name> <module-name>
+### module:make-command CreatePostCommand Blog
 
 Generate the given console command for the specified module.
 
-### module:make-migration <migration-name> <module-name>
+### module:make-migration create_posts_table Blog
 
 Generate a migration for specified module.
 
-### module:make-seed <seed-name> <module-name>
+### module:make-seed seed_fake_blog_posts Blog
 
 Generate the given seed name for the specified module.
 
-### module:make-controller <controller-name> <module-name>
+### module:make-controller PostsController Blog
 
 Generate a controller for the specified module.
 
-### module:make-model <model-name> <module-name>
+### module:make-model Post Blog
 
 Generate the given model for the specified module.
 
-### module:make-provider <provider-name> <module-name>
+### module:make-provider BlogServiceProvider Blog
 
 Generate the given service provider name for the specified module.
 
-### module:make-middleware <middleware-name> <module-name>
+### module:make-middleware CanReadPostsMiddleware Blog
 
 Generate the given middleware name for the specified module.
 
-### module:make-mail <mail-name> <module-name>
+### module:make-mail SendWeeklyPostsEmail Blog
 
 Generate the given mail class for the specified module.
 
-### module:make-notification <notification-name> <module-name>
+### module:make-notification NotifyAdminOfNewComment Blog
 
 Generate the given notification class name for the specified module.
