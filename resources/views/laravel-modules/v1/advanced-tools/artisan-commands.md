@@ -15,84 +15,88 @@ __Note all the following commands use "Blog" as example module name, and example
 
 ## Utility commands
 
-### module:make Blog
+### php artisan module:make Blog
 
 Generate a new module.
 
-### module:use Blog
+### php artisan module:make Blog User Auth
+
+Generate multiple modules at once.
+
+### php artisan module:use Blog
 
 Use a given module. This allows you to not specific the module name on other commands requiring the module name as an argument.
 
-### module:list
+### php artisan module:list
 
 List all available modules.
 
-### module:migrate Blog
+### php artisan module:migrate Blog
 
 Migrate the given module, or without a module an argument, migrate all modules.
 
-### module:migrate-rollback Blog
+### php artisan module:migrate-rollback Blog
 
 Rollback the given module, or without an argument, rollback all modules.
 
-### module:seed Blog
+### php artisan module:seed Blog
 
 Seed the given module, or without an argument, seed all modules
 
-### module:publish-migrations Blog
+### php artisan module:publish-migrations Blog
 
 Publish the migration files for the given module, or without an argument publish all modules migrations.
 
-### module:publish-config Blog
+### php artisan module:publish-config Blog
 
 Publish the given module configuration files, or without an argument publish all modules configuration files.
 
-### module:enable Blog
+### php artisan module:enable Blog
 
 Enable the given module.
 
-### module:disable Blog
+### php artisan module:disable Blog
 
 Disable the given module.
 
-### module:update Blog
+### php artisan module:update Blog
 
 Update the given module.
 
 ## Generator commands
 
-### module:make-command CreatePostCommand Blog
+### php artisan module:make-command CreatePostCommand Blog
 
 Generate the given console command for the specified module.
 
-### module:make-migration create_posts_table Blog
+### php artisan module:make-migration create_posts_table Blog
 
 Generate a migration for specified module.
 
-### module:make-seed seed_fake_blog_posts Blog
+### php artisan module:make-seed seed_fake_blog_posts Blog
 
 Generate the given seed name for the specified module.
 
-### module:make-controller PostsController Blog
+### php artisan module:make-controller PostsController Blog
 
 Generate a controller for the specified module.
 
-### module:make-model Post Blog
+### php artisan module:make-model Post Blog
 
 Generate the given model for the specified module.
 
-### module:make-provider BlogServiceProvider Blog
+### php artisan module:make-provider BlogServiceProvider Blog
 
 Generate the given service provider name for the specified module.
 
-### module:make-middleware CanReadPostsMiddleware Blog
+### php artisan module:make-middleware CanReadPostsMiddleware Blog
 
 Generate the given middleware name for the specified module.
 
-### module:make-mail SendWeeklyPostsEmail Blog
+### php artisan module:make-mail SendWeeklyPostsEmail Blog
 
 Generate the given mail class for the specified module.
 
-### module:make-notification NotifyAdminOfNewComment Blog
+### php artisan module:make-notification NotifyAdminOfNewComment Blog
 
 Generate the given notification class name for the specified module.
