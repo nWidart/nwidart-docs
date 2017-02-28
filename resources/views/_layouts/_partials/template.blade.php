@@ -50,6 +50,9 @@
             <div class="branding">
                 <div class="col-md-6">
                     <h1 class="logo">
+                        <a href="{{ url('/') }}" data-toggle="tooltip" title="Back to home" data-placement="bottom">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </a>
                         <a href="/laravel-modules">
                             <span aria-hidden="true" class="icon_documents_alt icon"></span>
                             <span class="text-highlight">{{ $package }}</span>
@@ -103,6 +106,13 @@
 <script type="text/javascript"
         src="{{ asset('assets/plugins/jquery-match-height/jquery.matchHeight-min.js') }}"></script>
 <script src="{{ asset('assets/js/main.js') }}"></script>
+<script>
+    $( document ).ready(function() {
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    });
+</script>
 <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
