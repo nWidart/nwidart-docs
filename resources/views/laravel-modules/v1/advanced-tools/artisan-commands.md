@@ -63,6 +63,22 @@ Rollback the given module, or without an argument, rollback all modules.
 php artisan module:migrate-rollback Blog
 ```
 
+### module:migrate-refresh
+
+Refresh the migration for the given module, or without a specified module refresh all modules migrations.
+
+```bash
+php artisan module:migrate-refresh Blog
+```
+
+### module:migrate-reset Blog
+
+Reset the migration for the given module, or without a specified module reset all modules migrations.
+
+```bash
+php artisan module:migrate-reset Blog
+```
+
 ### module:seed
 
 Seed the given module, or without an argument, seed all modules
@@ -85,6 +101,14 @@ Publish the given module configuration files, or without an argument publish all
 
 ```bash
 php artisan module:publish-config Blog
+```
+
+### module:publish-translation
+
+Publish the translation files for the given module, or without a specified module publish all modules migrations.
+
+```bash
+php artisan module:publish-translation Blog
 ```
 
 ### module:enable
@@ -183,4 +207,44 @@ Generate the given notification class name for the specified module.
 
 ```bash
 php artisan module:make-notification NotifyAdminOfNewComment Blog
+```
+
+### module:make-listener Blog --event events
+
+Generate the given listener for the specified module, base on an event
+
+```bash
+php artisan module:make-listener Blog --event events
+```
+
+### module:make-request
+
+Generate the given request for the specified module.
+
+```bash
+php artisan module:make-request
+```
+
+### module:make-event
+
+Generate the given event for the specified module.
+
+```bash
+php artisan module:make-event
+```
+
+### module:make-job
+
+Generate the given job for the specified module.
+
+```bash
+php artisan module:make-job
+```
+
+### module:route-provider
+
+Generate the given route for the specified module.
+
+```bash
+php artisan module:route-provider Blog
 ```
