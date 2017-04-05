@@ -71,12 +71,12 @@ Seed the given module, or without an argument, seed all modules
 php artisan module:seed Blog
 ```
 
-### module:publish-migrations
+### module:publish-migration
 
 Publish the migration files for the given module, or without an argument publish all modules migrations.
 
 ```bash
-php artisan module:publish-migrations Blog
+php artisan module:publish-migration Blog
 ```
 
 ### module:publish-config
