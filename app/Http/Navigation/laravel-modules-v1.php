@@ -12,6 +12,7 @@ return [
         'Creating a module',
         'Custom namespaces',
         'Configuration',
+        'Helpers',
     ],
     'Advanced Tools' => [
         'Artisan Commands',
