@@ -177,6 +177,11 @@ Generate the given model for the specified module.
 php artisan module:make-model Post Blog
 ```
 
+Optional options:
+
+- `--fillable=field1,field2`: set the fillable fields on the generated model
+- `--migration`, `-m`: create the migration file for the given model
+
 ### module:make-provider
 
 Generate the given service provider name for the specified module.
