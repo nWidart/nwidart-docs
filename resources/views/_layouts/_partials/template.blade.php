@@ -59,7 +59,7 @@
                         </a>
                         @if (count($versions) > 1)
                             <div class="btn-group">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     {{ $version }} <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu">
