@@ -57,6 +57,22 @@
                             <span aria-hidden="true" class="icon_documents_alt icon"></span>
                             <span class="text-highlight">{{ $package }}</span>
                         </a>
+                        @if (count($versions) > 1)
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    {{ $version }} <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    @foreach($versions as $v)
+                                        <li class="{{ $version === $v ? 'active' :'' }}">
+                                            <a href="/{{ $package }}/{{ $v }}">
+                                                v{{ substr($v, 1) }}
+                                            </a>
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
                     </h1>
                 </div>
                 <div class="col-md-6 header_logos">
