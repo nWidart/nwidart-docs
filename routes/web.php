@@ -20,6 +20,12 @@ Route::prefix('laravel-menus')->group(function () {
     Route::get('/', function () {
         return redirect('laravel-menus/v1/introduction');
     });
+    Route::get('/v1', function () {
+        return redirect('laravel-menus/v1/introduction');
+    });
+    Route::get('/v0.5', function () {
+        return redirect('laravel-menus/v0.5/introduction');
+    });
 });
 
 Route::prefix('laravel-videoable')->group(function () {

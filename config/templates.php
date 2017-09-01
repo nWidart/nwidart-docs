@@ -11,7 +11,7 @@ return [
         'githubUrl' => 'https://github.com/nWidart/laravel-menus',
         'siteSlogan' => 'Menu Management In Laravel',
         'siteTitle' => 'Laravel Menus',
-        'versions' => ['v1'],
+        'versions' => ['v0.5', 'v1'],
     ],
     'laravel-videoable' => [
         'githubUrl' => 'https://github.com/nWidart/laravel-videoable',
