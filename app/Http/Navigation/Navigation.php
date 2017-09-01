@@ -88,7 +88,7 @@ class Navigation
             });
 
             return Menu::new($subMenuContents->toArray())
-                ->prefixUrls("/{$prefix}")
+                //->prefixUrls("/{$prefix}")
                 ->addClass('nav doc-sub-menu')
                 ->prependIf(!is_null($title), "<a>$title</a>");
         });
