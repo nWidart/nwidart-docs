@@ -76,7 +76,7 @@ class Navigation
 
             $title = is_int($title) ? null : $title;
 
-            $subMenuContents = collect($items)->map(function (string $item) use ($title) : Link {
+            $subMenuContents = collect($items)->map(function (string $item) use ($prefix, $title) : Link {
 
                 $url = str_slug($item);
 
@@ -84,7 +84,7 @@ class Navigation
                     $url = str_slug($title) . '/' . $url;
                 }
 
-                return Link::to($url, $item);
+                return Link::toUrl("{$prefix}/{$url}", $item);
             });
 
             return Menu::new($subMenuContents->toArray())
