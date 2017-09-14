@@ -214,12 +214,12 @@ Generate the given notification class name for the specified module.
 php artisan module:make-notification NotifyAdminOfNewComment Blog
 ```
 
-### module:make-listener Blog --event events
+### module:make-listener
 
 Generate the given listener for the specified module, base on an event
 
 ```bash
-php artisan module:make-listener Blog --event events
+php artisan module:make-listener ListenerClassName Blog
 ```
 
 ### module:make-request
@@ -227,7 +227,7 @@ php artisan module:make-listener Blog --event events
 Generate the given request for the specified module.
 
 ```bash
-php artisan module:make-request
+php artisan module:make-request CreatePostRequest Blog
 ```
 
 ### module:make-event
@@ -235,7 +235,7 @@ php artisan module:make-request
 Generate the given event for the specified module.
 
 ```bash
-php artisan module:make-event
+php artisan module:make-event BlogPostWasUpdated Blog
 ```
 
 ### module:make-job
