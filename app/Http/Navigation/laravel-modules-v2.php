@@ -19,6 +19,7 @@ return [
         'Facade methods',
         'Module methods',
         'Publishing modules',
-        'Module Resources'
+        'Module Resources',
+        'Module Console Commands',
     ],
 ];
