@@ -33,7 +33,7 @@ php artisan module:make Blog User Auth
 
 ### module:use
 
-Use a given module. This allows you to not specific the module name on other commands requiring the module name as an argument.
+Use a given module. This allows you to not specify the module name on other commands requiring the module name as an argument.
 
 ```bash
 php artisan module:use Blog
