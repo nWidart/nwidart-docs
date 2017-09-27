@@ -21,5 +21,6 @@ return [
         'Publishing modules',
         'Module Resources',
         'Module Console Commands',
+        'Registering Module Events',
     ],
 ];
