@@ -5,6 +5,7 @@ return [
         'Introduction',
         'Requirements',
         'Installation and setup',
+        'Lumen',
         'Questions and issues',
         'Changelog',
     ],
