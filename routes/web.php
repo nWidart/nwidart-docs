@@ -5,13 +5,16 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::prefix('laravel-modules')->group(function () {
 
     Route::get('/', function () {
-        return redirect('laravel-modules/v2/introduction');
+        return redirect('laravel-modules/v3/introduction');
     });
     Route::get('/v1', function () {
         return redirect('laravel-modules/v1/introduction');
     });
     Route::get('/v2', function () {
         return redirect('laravel-modules/v2/introduction');
+    });
+    Route::get('/v3', function () {
+        return redirect('laravel-modules/v3/introduction');
     });
 });
 
