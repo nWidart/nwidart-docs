@@ -67,13 +67,13 @@ Module::has('blog');
 Get all enabled modules.
 
 ```php
-Module::enabled();
+Module::allEnabled();
 ```
 
 Get all disabled modules.
 
 ```php
-Module::disabled();
+Module::allDisabled();
 ```
 
 Get count of all modules.
