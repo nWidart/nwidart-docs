@@ -35,6 +35,11 @@ Modules/
       ├── Providers/
           ├── BlogServiceProvider.php
       ├── Resources/
+          ├── assets/
+              ├── js/
+                ├── app.js
+              ├── sass/
+                ├── app.scss
           ├── lang/
           ├── views/
       ├── Repositories/
