@@ -14,6 +14,7 @@ return [
         'Custom namespaces',
         'Configuration',
         'Helpers',
+        'Compiling Assets',
     ],
     'Advanced Tools' => [
         'Artisan Commands',
