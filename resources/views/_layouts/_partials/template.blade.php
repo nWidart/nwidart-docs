@@ -22,12 +22,6 @@
     <link rel="stylesheet" href="{{ asset('assets/plugins/font-awesome/css/font-awesome.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/plugins/elegant_font/css/style.css') }}">
 
-    <!-- Theme CSS -->
-    <style>
-        pre {
-            all: unset;
-        }
-    </style>
     <link id="theme-style" rel="stylesheet" href="{{ asset('assets/plugins/highlight/styles/agate.css') }}">
     <link id="theme-style" rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
     <!-- Package CSS -->
