@@ -36,11 +36,34 @@ After generating the versioned file, you won't know the exact file name. So, you
 ``` html
 // Modules/Blog/Resources/views/layouts/master.blade.php
 
-<link rel="stylesheet" href="{{ mix('css/app.css','modules/blog') }}">
+<link rel="stylesheet" href="{{ mix('css/blog.css') }}">
 
-<script src="{{ mix('js/app.js', 'modules/blog') }}"></script>
+<script src="{{ mix('js/blog.js') }}"></script>
 ```
 
 For more info on Laravel Mix view the documentation here: [https://laravel.com/docs/mix](https://laravel.com/docs/mix)
 
+> Note: to prevent the main Laravel Mix configuration from overwriting the `public/mix-manifest.json` file:
 
+
+Install `laravel-mix-merge-manifest`
+
+```bash
+npm install laravel-mix-merge-manifest --save-dev
+```
+
+Modify `webpack.mix.js` main file
+
+```js
+let mix = require('laravel-mix');
+
+
+/* Allow multiple Laravel Mix applications*/
+require('laravel-mix-merge-manifest');
+mix.mergeManifest();
+/*----------------------------------------*/
+
+mix.js('resources/assets/js/app.js', 'public/js')
+   .sass('resources/assets/sass/app.scss', 'public/css');
+
+```
