@@ -11,7 +11,7 @@ mkdir config
 cp vendor/nwidart/laravel-modules/config/config.php config/modules.php
 ```
 
-Then load the config and the service provider in `app/bootstrap.php`
+Then load the config and the service provider in `bootstrap/app.php`
 
 ``` php
 $app->configure('modules');
