@@ -42,6 +42,7 @@ Modules/
       ├── Database/
           ├── Migrations/
           ├── Seeders/
+          ├── Factories/
       ├── Entities/
       ├── Http/
           ├── Controllers/
