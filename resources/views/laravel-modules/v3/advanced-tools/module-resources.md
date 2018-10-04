@@ -3,7 +3,7 @@ title: Module Resources
 ---
 
 Your module will most likely contain what laravel calls resources, those contain configuration, views, translation files, etc.
-In order for you module to correctly load and if wanted publish them you need to let laravel know about them as in any regular package.
+In order for your module to correctly load and if you want to publish them, you need to let laravel know about them as in any regular package.
 
 <div class="callout-block callout-success">
     <div class="icon-holder">
