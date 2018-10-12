@@ -2,7 +2,7 @@
 title: Publishing Modules
 ---
 
-After creating a module and you are sure your module module will be used by other developers. You can push your module to [github](https://github.com) or [bitbucket](https://bitbucket.org) and after that you can submit your module to the packagist website.
+After creating a module and you are sure your module will be used by other developers. You can push your module to [github](https://github.com) or [bitbucket](https://bitbucket.org) and after that you can submit your module to the packagist website.
 
 You can follow this step to publish your module.
 
