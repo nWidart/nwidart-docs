@@ -311,6 +311,7 @@ Generate the given test class for the specified module.
 
 ```bash
 php artisan module:make-test EloquentPostRepositoryTest Blog
+php artisan module:make-test EloquentPostRepositoryTest Blog --feature
 ```
 
 
