@@ -20,6 +20,9 @@ Route::prefix('laravel-modules')->group(function () {
     Route::get('/v4', function () {
         return redirect('laravel-modules/v4/introduction');
     });
+    Route::get('/v5', function () {
+        return redirect('laravel-modules/v5/introduction');
+    });
 });
 
 Route::prefix('laravel-menus')->group(function () {
