@@ -2,7 +2,7 @@
 title: Publishing Modules
 ---
 
-After creating a module and you are sure your module will be used by other developers. You can push your module to [github](https://github.com) or [bitbucket](https://bitbucket.org) and after that you can submit your module to the packagist website.
+After creating a module and you are sure your module will be used by other developers. You can push your module to [github](https://github.com), [gitlab](https://gitlab.com) or [bitbucket](https://bitbucket.org) and after that you can submit your module to the packagist website.
 
 You can follow this step to publish your module.
 
@@ -14,12 +14,21 @@ Submit to packagist is very easy, just give your github repository, click submit
 
 ## Have modules be installed in the `Modules/` folder
 
-Published modules can be installed like other composer packages. In any Laravel project install the [nwidart/laravel-modules](https://github.com/nwidart/laravel-modules) package by following the instruction and then you can install your own module. 
+Published modules can be installed like other composer packages. In any Laravel project install the [nwidart/laravel-modules](https://github.com/nwidart/laravel-modules) package by following the instruction and then you can install your own modules. One extra step you need to take to install the module into the `Modules` directory of the project. 
 
-To install the module you have to use the composer command as following, 
+The extra step is to install an additional composer plugin, [joshbrw/laravel-module-installer](https://github.com/joshbrw/laravel-module-installer) which will move the module files automatically. If you need to install the modules other than the `Modules` directory then add the following in your module composer.json. 
+
+```php
+"extra": {
+    "module-dir": "Custom"
+}
+```
+
+After installing the composer plugin onces, now to install the module you have to use the composer command as like other regular packages, 
 
 ```php
 
 composer require nwidart/article-module
 
 ```
+
