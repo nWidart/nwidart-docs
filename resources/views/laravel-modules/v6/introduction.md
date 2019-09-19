@@ -10,6 +10,16 @@ With one big added bonus that the original package didn't have: **tests**.
 
 Find out why you should use this package in the article: [Writing modular applications with laravel-modules](https://nicolaswidart.com/blog/writing-modular-applications-with-laravel-modules).
 
+<div class="callout-block callout-success">
+    <div class="icon-holder">
+        <i class="fa fa-thumbs-up"></i>
+    </div><!--//icon-holder-->
+    <div class="content">
+        <h4 class="callout-title">Heads up:</h4>
+        <p>If you upgrade to v6 from previous version, run the following command: <code>php artisan module:v6:migrate</code></p>
+    </div><!--//content-->
+</div>
+
 ### Quick Example
 
 Generate your first module using `php artisan module:make Blog`. The following structure will be generated.
