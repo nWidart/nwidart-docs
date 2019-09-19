@@ -5,9 +5,9 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::prefix('laravel-modules')->group(function () {
 
     Route::get('/', function () {
-        return redirect('laravel-modules/v5/introduction');
+        return redirect('laravel-modules/v6/introduction');
     });
- 
+
     Route::get('/v1', function () {
         return redirect('laravel-modules/v1/introduction');
     });
@@ -22,6 +22,9 @@ Route::prefix('laravel-modules')->group(function () {
     });
     Route::get('/v5', function () {
         return redirect('laravel-modules/v5/introduction');
+    });
+    Route::get('/v6', function () {
+        return redirect('laravel-modules/v6/introduction');
     });
 });
 
