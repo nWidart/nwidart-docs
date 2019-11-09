@@ -73,6 +73,7 @@ If you want to use laravel factories you will have to add the following in your 
 
 ```php
 $this->app->singleton(Factory::class, function () {
-    return Factory::construct(__DIR__ . '/Database/factories');
+    $faker = $this->app->make(\Faker\Generator::class);
+    return Factory::construct(faker, __DIR__ . '/../Database/factories');
 });
 ```
