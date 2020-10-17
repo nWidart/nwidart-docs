@@ -271,7 +271,7 @@ php artisan module:route-provider Blog
 Generate the given database factory for the specified module.
 
 ```bash
-php artisan module:make-factory FactoryName Blog
+php artisan module:make-factory ModelName Blog
 ```
 
 ### module:make-policy
