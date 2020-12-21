@@ -22,18 +22,7 @@ Find out why you should use this package in the article: [Writing modular applic
 
 ### Quick Example
 
-Generate your first module using `php artisan module:make Blog`. The following structure will be generated.
-
-```
-app/
-bootstrap/
-vendor/
-Modules/
-  ├── Blog/
-      ├── Assets/
-      ├── Config/
-      ├── Console/
-      ├── Database/
+Generate your first module using `php artisan module:make Blog`. The follo
           ├── Migrations/
           ├── Seeders/
       ├── Entities/
