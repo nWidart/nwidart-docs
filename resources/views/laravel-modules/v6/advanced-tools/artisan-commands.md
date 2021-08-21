@@ -176,6 +176,10 @@ Generate a controller for the specified module.
 ```bash
 php artisan module:make-controller PostsController Blog
 ```
+Optional options:
+
+- `--plain`,`-p` : create a plain controller
+- `--api` : create a resouce controller
 
 ### module:make-model
 
