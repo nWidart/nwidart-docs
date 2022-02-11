@@ -5,7 +5,7 @@ return [
         'githubUrl' => 'https://github.com/nWidart/laravel-modules',
         'siteSlogan' => 'Module Management In Laravel',
         'siteTitle' => 'Laravel Modules',
-        'versions' => ['v1', 'v2', 'v3', 'v4', 'v5', 'v6', ],
+        'versions' => ['v1', 'v2', 'v3', 'v4', 'v5', 'v6', 'v8', 'v9'],
     ],
     'laravel-menus' => [
         'githubUrl' => 'https://github.com/nWidart/laravel-menus',

@@ -5,7 +5,7 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::prefix('laravel-modules')->group(function () {
 
     Route::get('/', function () {
-        return redirect('laravel-modules/v8/introduction');
+        return redirect('laravel-modules/v9/introduction');
     });
 
     Route::get('/v1', function () {
@@ -34,6 +34,10 @@ Route::prefix('laravel-modules')->group(function () {
 
     Route::get('/v8', function () {
         return redirect('laravel-modules/v8/introduction');
+    });
+
+    Route::get('/v9', function () {
+        return redirect('laravel-modules/v9/introduction');
     });
 });
 
