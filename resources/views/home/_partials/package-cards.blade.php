@@ -4,7 +4,7 @@
             <span aria-hidden="true" class="icon icon_puzzle_alt"></span>
         </div><!--//icon-holder-->
         <h3 class="title">Laravel Modules</h3>
-        <p class="intro">Module Management In Laravel</p>
+        <p class="intro">Module Management using Laravel</p>
         <a class="link" href="/laravel-modules"><span></span></a>
     </div><!--//item-inner-->
 </div><!--//item-->
