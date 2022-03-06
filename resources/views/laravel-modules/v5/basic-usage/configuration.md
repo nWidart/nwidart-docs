@@ -8,7 +8,7 @@ You can publish the package configuration using the following command:
 php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider"
 ```
 
-In the published configuration file you can configure the following things:
+In the published configuration file you can configure the following things (in config/modules.php file):
 
 ## Default namespace
 
