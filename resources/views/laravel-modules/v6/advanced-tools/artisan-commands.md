@@ -236,6 +236,14 @@ php artisan module:make-listener NotifyUsersOfANewPost Blog --event=PostWasCreat
 php artisan module:make-listener NotifyUsersOfANewPost Blog --event=PostWasCreated --queued
 ```
 
+### module:make-livewire
+
+Generate the given `livewire` components for the specified module.
+
+```bash
+php artisan module:make-livewire Blog/index Blog
+```
+
 ### module:make-request
 
 Generate the given request for the specified module.
