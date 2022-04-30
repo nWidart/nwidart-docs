@@ -103,6 +103,14 @@ Publish the migration files for the given module, or without an argument publish
 php artisan module:publish-migration Blog
 ```
 
+### module:v6:migrate
+
+Migrate laravel-modules v5 modules statuses to v6.
+
+```bash
+php artisan module:module:v6:migrate
+```
+
 ### module:publish-config
 
 Publish the given module configuration files, or without an argument publish all modules configuration files.
@@ -133,6 +141,31 @@ Disable the given module.
 
 ```bash
 php artisan module:disable Blog
+```
+
+### module:dump
+
+Dump-autoload the specified module or for all module.
+
+```bash
+php artisan module:dump
+```
+
+
+### model:prune
+
+Prune models that are no longer needed.
+
+```bash
+php artisan model:prune
+```
+
+### module:delete
+
+Delete a module from the application.
+
+```bash
+php artisan module:delete Blog
 ```
 
 ### module:update
@@ -167,6 +200,14 @@ Generate the given seed name for the specified module.
 
 ```bash
 php artisan module:make-seed seed_fake_blog_posts Blog
+```
+
+### module:make-setup
+
+Setting up modules folders for first use.
+
+```bash
+php artisan module:make-setup
 ```
 
 ### module:make-controller
