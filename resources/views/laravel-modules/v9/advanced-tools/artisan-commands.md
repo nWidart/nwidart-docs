@@ -143,6 +143,22 @@ Disable the given module.
 php artisan module:disable Blog
 ```
 
+### model:prune
+
+Prune models that are no longer needed.
+
+```bash
+php artisan model:prune
+```
+
+### module:delete
+
+Delete a module from the application.
+
+```bash
+php artisan module:delete Blog
+```
+
 ### module:update
 
 Update the given module.
