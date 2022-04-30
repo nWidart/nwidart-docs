@@ -143,6 +143,15 @@ Disable the given module.
 php artisan module:disable Blog
 ```
 
+### module:dump
+
+Dump-autoload the specified module or for all module.
+
+```bash
+php artisan module:dump
+```
+
+
 ### model:prune
 
 Prune models that are no longer needed.
