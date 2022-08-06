@@ -143,6 +143,14 @@ Update the given module.
 php artisan module:update Blog
 ```
 
+### module:show-model
+
+Provides a convenient overview of all the model's attributes and relations:
+
+```bash
+php artisan module:show-model Blog
+```
+
 ## Generator commands
 
 ### module:make-command
