@@ -193,6 +193,10 @@ Optional options:
 
 - `--fillable=field1,field2`: set the fillable fields on the generated model
 - `--migration`, `-m`: create the migration file for the given model
+- `--request`, `-r`: create the request file for the given model
+- `--seed`, `-s`: create the seeder file for the given model
+- `--controller`, `-c`: create the controller file for the given model
+-  `-mcrs`: create migration, controller, request and seeder files all together for the given model
 
 ### module:make-provider
 
